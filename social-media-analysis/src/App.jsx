@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import './App.css';
-import image from './components/Images/image1.png';
+import image1 from './components/Images/image1.png';
 
 function App() {
     const [file, setFile] = useState(null);
@@ -24,7 +24,7 @@ function App() {
                 </div>
             </nav>
             <div className="content">
-                <img src={image} alt="Description of the image" className="image" />
+                <img src={image1} alt="Description of the image" className="image" />
                 <div className="description">
                     <h2>Image Title</h2>
                     <p>This is a small description of the image displayed on the left.</p>
