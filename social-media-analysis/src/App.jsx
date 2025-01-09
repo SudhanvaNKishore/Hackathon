@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import './App.css';
+
 import image1 from './components/Images/image1.png';
 
 function App() {
